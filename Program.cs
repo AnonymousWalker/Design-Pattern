@@ -8,6 +8,7 @@ namespace DesignPattern
         {
             //new source.ChainOfResponsibility.Client().Start();
             //new source.Builder.Client().Start();
+            new source.Composite.Client().Use();
         }
     }
 }
