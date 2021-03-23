@@ -17,7 +17,7 @@ namespace DesignPattern.source.Builder
      */
     class Client
     {
-        public void Start()
+        public void Use()
         {
             // start up with builder 1
             RegularBuilder b1 = new RegularBuilder();

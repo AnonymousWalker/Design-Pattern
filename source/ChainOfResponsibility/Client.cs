@@ -13,7 +13,7 @@ namespace DesignPattern.source.ChainOfResponsibility
      */
     class Client
     {
-        public void Start()
+        public void Use()
         {
             Handler h1 = new Processor1();
             Handler h2 = new Processor2();
