@@ -9,7 +9,7 @@ namespace DesignPattern.source.ChainOfResponsibility
         protected Handler nextHandler = null;
         public abstract void HandleRequest(int level);
 
-        public void DoSomethingCommon(string name, int level)
+        public void Process(string name, int level)
         {
             Console.WriteLine("{0} handled the request: {1}.", name, level);
         }

@@ -10,7 +10,7 @@ namespace DesignPattern.source.ChainOfResponsibility
         {
             if (level > 10 && level <= 100)
             {
-                DoSomethingCommon("Processor#3", level);
+                Process("Processor#3", level);
             }
             else if (nextHandler != null)
             {

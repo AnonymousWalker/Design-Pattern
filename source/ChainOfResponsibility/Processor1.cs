@@ -13,7 +13,7 @@ namespace DesignPattern.source.ChainOfResponsibility
                 // processing logic goes here
                 // e.g. DoSomeThingSpecific()
 
-                DoSomethingCommon("Processor#1", level);
+                Process("Processor#1", level);
             }
             else if (nextHandler != null)
             {
