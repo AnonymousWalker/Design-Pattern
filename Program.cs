@@ -6,9 +6,7 @@ namespace DesignPattern
     {
         static void Main(string[] args)
         {
-            //new source.ChainOfResponsibility.Client().Start();
-            //new source.Builder.Client().Start();
-            new source.Composite.Client().Use();
+            new source.FactoryMethod.Client().Use();
         }
     }
 }
